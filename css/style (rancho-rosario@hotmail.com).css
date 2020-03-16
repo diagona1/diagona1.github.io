@@ -1,0 +1,178 @@
+@font-face {
+font-family: fuentechida;
+src: url(../font/fuente1.ttf);
+}
+.esp-n{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.esp-m{
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+.esp-j{
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+}
+
+.desarrollador{
+  height: auto;
+  width: 100%;
+}
+.backend{
+ 
+   background:#FDFDFD;
+ }
+ .back{
+  border-bottom: 3px solid;
+   border-right: 3px solid;
+  border-top: 3px solid;
+  padding: 6px;
+
+ }
+ .front{
+   border-bottom: 3px solid;
+ 
+  border-top: 3px solid;
+  padding: 6px;
+
+ }
+.frontend{
+  background:#FDFDFD;
+  
+}
+.server{
+
+  width: 100%;
+ background: url(../images/server.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
+
+}
+.desarrollo{
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  border: 2px solid white;
+}
+.design{
+
+  width: 100%;
+ background: url(../images/dise.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
+
+}
+.banner-des{
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(../images/code.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
+}
+
+.banner-des:before{
+  content:"";
+  position: absolute;
+  z-index: -1;
+  top:0px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #000;
+  opacity: 0.25;
+
+  
+}
+.banner-des h1{
+  text-align: center;
+  color: #fff;
+ 
+
+
+}
+
+.cita{
+  text-align: center;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cita strong{
+  border-bottom: 2px solid;
+
+
+}
+
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.ex{
+  line-height: 25px;
+  margin-top: 40px;
+
+}
+
+
+.server h4{
+  text-align: right;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+}
+.design h4{
+  text-align: left;
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #fff;
+}
+
+.corazon:after{
+  content: url(../images/corazon.png);
+
+}
